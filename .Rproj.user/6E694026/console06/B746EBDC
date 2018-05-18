@@ -272,3 +272,21 @@ To https://github.com/brandondey/github.io.data-science.git
    45999e9..d0c2720  master -> master
 Branch 'master' set up to track remote branch 'master' from 'origin'.
 ]0;~/Documents/Projects/Data Science/github.io.data-scienceShelbys-MacBook-Air:github.io.data-science brandondey$ git push -u origin mastercommit -m "added index to ds"add .[K
+]0;~/Documents/Projects/Data Science/github.io.data-scienceShelbys-MacBook-Air:github.io.data-science brandondey$ git add .push -u origin mastercommit -m "added index to ds"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"a"d"d"[1P"[1P"[1P"c"[1P"u"p"d"a"t"e"d" "l"a"y"o"u"r"[1P"t"
+[master 7ac9b9a] updated layout
+ 9 files changed, 117 insertions(+), 38 deletions(-)
+ delete mode 100644 .Rproj.user/6E694026/sources/s-107955CF/C4072852
+ delete mode 100644 .Rproj.user/shared/notebooks/7342B3EA-index/1/6E694026107955CF/chunks.json
+]0;~/Documents/Projects/Data Science/github.io.data-scienceShelbys-MacBook-Air:github.io.data-science brandondey$ git push -u origin master
+Counting objects: 18, done.
+Delta compression using up to 4 threads.
+Compressing objects:   6% (1/15)   Compressing objects:  13% (2/15)   Compressing objects:  20% (3/15)   Compressing objects:  26% (4/15)   Compressing objects:  33% (5/15)   Compressing objects:  40% (6/15)   Compressing objects:  46% (7/15)   Compressing objects:  53% (8/15)   Compressing objects:  60% (9/15)   Compressing objects:  66% (10/15)   Compressing objects:  73% (11/15)   Compressing objects:  80% (12/15)   Compressing objects:  86% (13/15)   Compressing objects:  93% (14/15)   Compressing objects: 100% (15/15)   Compressing objects: 100% (15/15), done.
+Writing objects:   5% (1/18)   Writing objects:  11% (2/18)   Writing objects:  16% (3/18)   Writing objects:  22% (4/18)   Writing objects:  27% (5/18)   Writing objects:  33% (6/18)   Writing objects:  38% (7/18)   Writing objects:  44% (8/18)   Writing objects:  50% (9/18)   Writing objects:  55% (10/18)   Writing objects:  61% (11/18)   Writing objects:  66% (12/18)   Writing objects:  72% (13/18)   Writing objects:  77% (14/18)   Writing objects:  83% (15/18)   Writing objects:  88% (16/18)   Writing objects:  94% (17/18)   Writing objects: 100% (18/18)   Writing objects: 100% (18/18), 3.55 KiB | 910.00 KiB/s, done.
+Total 18 (delta 7), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/7)   [Kremote: Resolving deltas:  14% (1/7)   [Kremote: Resolving deltas:  28% (2/7)   [Kremote: Resolving deltas:  42% (3/7)   [Kremote: Resolving deltas:  57% (4/7)   [Kremote: Resolving deltas:  71% (5/7)   [Kremote: Resolving deltas:  85% (6/7)   [Kremote: Resolving deltas: 100% (7/7)   [Kremote: Resolving deltas: 100% (7/7), completed with 7 local objects.[K
+remote: This repository moved. Please use the new location:[K
+remote:   https://github.com/brandondey/data-science.git[K
+To https://github.com/brandondey/github.io.data-science.git
+   d0c2720..7ac9b9a  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+]0;~/Documents/Projects/Data Science/github.io.data-scienceShelbys-MacBook-Air:github.io.data-science brandondey$ [KShelbys-MacBook-Air:github.io.data-science brandondey$ [KShelbys-MacBook-Air:github.io.data-science brandondey$ git push -u origin mastercommit -m "updated layout"add .[K
