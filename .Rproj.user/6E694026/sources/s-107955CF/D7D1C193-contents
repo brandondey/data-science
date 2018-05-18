@@ -1,0 +1,23 @@
+name: "Data Science"
+output_dir: "."
+navbar:
+  title: "DS"
+  href: https://brandondey.github.io/data-science/
+  right:
+    - text: "hadley wickham dedication"
+      menu:
+      - text: "jk"
+        href: ds.html
+    - icon: glyphicon glyphicon-console
+      menu:
+      - text: "Home"
+        href: https://brandondey.github.io
+      - text: "Writing"  
+        href: https://brandondey.github.io/writing/
+      - text: "Blog"
+        href: https://brandondey.github.io/blog/
+output:
+  html_document:
+    theme: journal
+    highlight: null
+    css: css/style.css
