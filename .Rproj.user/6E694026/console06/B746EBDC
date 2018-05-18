@@ -87,3 +87,95 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 fatal: remote origin already exists.
 ]0;~/Documents/Projects/Data Science/github.io.data-scienceShelbys-MacBook-Air:github.io.data-science brandondey$ git remote add origin https://github.com/brandondeyy/github.io.data-science.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[25Ppush -u origin master
 [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Ka[K add .
+]0;~/Documents/Projects/Data Science/github.io.data-scienceShelbys-MacBook-Air:github.io.data-science brandondey$ gi [Kt commit -m "initial commit"
+[master 5c3433e] initial commit
+ 3 files changed, 102 insertions(+)
+ create mode 100644 .Rproj.user/6E694026/sources/s-107955CF/428B6B63
+ create mode 100644 .Rproj.user/6E694026/sources/s-107955CF/428B6B63-contents
+]0;~/Documents/Projects/Data Science/github.io.data-scienceShelbys-MacBook-Air:github.io.data-science brandondey$ git puh[Ksh -u origin master
+To https://github.com/brandondey/github.io.data-science.git
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'https://github.com/brandondey/github.io.data-science.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+]0;~/Documents/Projects/Data Science/github.io.data-scienceShelbys-MacBook-Air:github.io.data-science brandondey$ i[Kgit u[Kpull
+There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=origin/<branch> master
+
+]0;~/Documents/Projects/Data Science/github.io.data-scienceShelbys-MacBook-Air:github.io.data-science brandondey$ git branch --set-upstream-to=origin/<branch> maste r
+bash: branch: No such file or directory
+]0;~/Documents/Projects/Data Science/github.io.data-scienceShelbys-MacBook-Air:github.io.data-science brandondey$ git branch --set-upstream-to=origin/<branch> masterr[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C master [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P master
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P master[1P master[1P master[1P master[1P master[1P master
+error: the requested upstream branch 'origin/' does not exist
+hint: 
+hint: If you are planning on basing your work on an upstream
+hint: branch that already exists at the remote, you may need to
+hint: run "git fetch" to retrieve it.
+hint: 
+hint: If you are planning to push out a new local branch that
+hint: will track its remote counterpart, you may want to use
+hint: "git push -u" to set the upstream config as you push.
+]0;~/Documents/Projects/Data Science/github.io.data-scienceShelbys-MacBook-Air:github.io.data-science brandondey$ git pull as[K[Kmaster o[K[K[K[K[K[K[K[Korigin master
+From https://github.com/brandondey/github.io.data-science
+ * branch            master     -> FETCH_HEAD
+fatal: refusing to merge unrelated histories
+]0;~/Documents/Projects/Data Science/github.io.data-scienceShelbys-MacBook-Air:github.io.data-science brandondey$ git pull
+remote: Counting objects: 2, done.[K
+remote: Total 2 (delta 0), reused 0 (delta 0), pack-reused 0[K
+Unpacking objects:  50% (1/2)   Unpacking objects: 100% (2/2)   Unpacking objects: 100% (2/2), done.
+From https://github.com/brandondey/github.io.data-science
+   c06a5b4..9452eb9  master     -> origin/master
+There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=origin/<branch> master
+
+]0;~/Documents/Projects/Data Science/github.io.data-scienceShelbys-MacBook-Air:github.io.data-science brandondey$ git pull origin master[21@branch --set-upstream-to=origin/[C[C[C[C[C[C[C<branch> masterr[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpull[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csh -u origin mastercommit -m "initial commit"add .[Kremote add origin https://github.com/brandondeyy/github.io.data-science.git;4D;4D[K[K[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cadd .[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccommit -m "initial commit"[5Ppush -u origin masterll[Kbranch --set-upstream-to=origin/<branch> masterr[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[7P master
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[21Ppull origin[C[C[C[C[C[C[C[K[Kgit pull https://github.com/brandondey/github.io.d ata-science.git master[K[K[K[K[K[Ki[Korigin
+fatal: Couldn't find remote ref origin
+]0;~/Documents/Projects/Data Science/github.io.data-scienceShelbys-MacBook-Air:github.io.data-science brandondey$ git pull https://github.com/brandondey/github.io.daata-science.git origin[C[K[K[K[K[K[Kmaster
+From https://github.com/brandondey/github.io.data-science
+ * branch            master     -> FETCH_HEAD
+fatal: refusing to merge unrelated histories
+]0;~/Documents/Projects/Data Science/github.io.data-scienceShelbys-MacBook-Air:github.io.data-science brandondey$ git remote add origin https://github.com/brandonde y/github.io.data-science.git
+fatal: remote origin already exists.
+]0;~/Documents/Projects/Data Science/github.io.data-scienceShelbys-MacBook-Air:github.io.data-science brandondey$ git push -u origin master
+Counting objects: 50, done.
+Delta compression using up to 4 threads.
+Compressing objects:   2% (1/45)   Compressing objects:   4% (2/45)   Compressing objects:   6% (3/45)   Compressing objects:   8% (4/45)   Compressing objects:  11% (5/45)   Compressing objects:  13% (6/45)   Compressing objects:  15% (7/45)   Compressing objects:  17% (8/45)   Compressing objects:  20% (9/45)   Compressing objects:  22% (10/45)   Compressing objects:  24% (11/45)   Compressing objects:  26% (12/45)   Compressing objects:  28% (13/45)   Compressing objects:  31% (14/45)   Compressing objects:  33% (15/45)   Compressing objects:  35% (16/45)   Compressing objects:  37% (17/45)   Compressing objects:  40% (18/45)   Compressing objects:  42% (19/45)   Compressing objects:  44% (20/45)   Compressing objects:  46% (21/45)   Compressing objects:  48% (22/45)   Compressing objects:  51% (23/45)   Compressing objects:  53% (24/45)   Compressing objects:  55% (25/45)   Compressing objects:  57% (26/45)   Compressing objects:  60% (27/45)   Compressing objects:  62% (28/45)   Compressing objects:  64% (29/45)   Compressing objects:  66% (30/45)   Compressing objects:  68% (31/45)   Compressing objects:  71% (32/45)   Compressing objects:  73% (33/45)   Compressing objects:  75% (34/45)   Compressing objects:  77% (35/45)   Compressing objects:  80% (36/45)   Compressing objects:  82% (37/45)   Compressing objects:  84% (38/45)   Compressing objects:  86% (39/45)   Compressing objects:  88% (40/45)   Compressing objects:  91% (41/45)   Compressing objects:  93% (42/45)   Compressing objects:  95% (43/45)   Compressing objects:  97% (44/45)   Compressing objects: 100% (45/45)   Compressing objects: 100% (45/45), done.
+Writing objects:   2% (1/50)   Writing objects:   4% (2/50)   Writing objects:   6% (3/50)   Writing objects:   8% (4/50)   Writing objects:  14% (7/50)   Writing objects:  16% (8/50)   Writing objects:  18% (9/50)   Writing objects:  20% (10/50)   Writing objects:  22% (11/50)   Writing objects:  24% (12/50)   Writing objects:  26% (13/50)   Writing objects:  28% (14/50)   Writing objects:  30% (15/50)   Writing objects:  32% (16/50)   Writing objects:  34% (17/50)   Writing objects:  36% (18/50)   Writing objects:  38% (19/50)   Writing objects:  40% (20/50)   Writing objects:  42% (21/50)   Writing objects:  44% (22/50)   Writing objects:  46% (23/50)   Writing objects:  48% (24/50)   Writing objects:  50% (25/50)   Writing objects:  52% (26/50)   Writing objects:  54% (27/50)   Writing objects:  56% (28/50)   Writing objects:  58% (29/50)   Writing objects:  60% (30/50)   Writing objects:  62% (31/50)   Writing objects:  64% (32/50)   Writing objects:  66% (33/50)   Writing objects:  68% (34/50)   Writing objects:  70% (35/50)   Writing objects:  72% (36/50)   Writing objects:  74% (37/50)   Writing objects:  76% (38/50)   Writing objects:  78% (39/50)   Writing objects:  80% (40/50)   Writing objects:  82% (41/50)   Writing objects:  84% (42/50)   Writing objects:  86% (43/50)   Writing objects:  88% (44/50)   Writing objects:  90% (45/50)   Writing objects:  92% (46/50)   Writing objects:  94% (47/50)   Writing objects:  96% (48/50)   Writing objects:  98% (49/50)   Writing objects: 100% (50/50)   Writing objects: 100% (50/50), 438.69 KiB | 3.51 MiB/s, done.
+Total 50 (delta 8), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/8)   [Kremote: Resolving deltas:  25% (2/8)   [Kremote: Resolving deltas:  50% (4/8)   [Kremote: Resolving deltas:  75% (6/8)   [Kremote: Resolving deltas:  87% (7/8)   [Kremote: Resolving deltas: 100% (8/8)   [Kremote: Resolving deltas: 100% (8/8), done.[K
+To https://github.com/brandondey/github.io.data-science.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+]0;~/Documents/Projects/Data Science/github.io.data-scienceShelbys-MacBook-Air:github.io.data-science brandondey$ pwd
+/Users/brandondey/Documents/Projects/Data Science/github.io.data-science
+]0;~/Documents/Projects/Data Science/github.io.data-scienceShelbys-MacBook-Air:github.io.data-science brandondey$ git pull
+remote: Counting objects: 3, done.[K
+remote: Compressing objects:  33% (1/3)   [Kremote: Compressing objects:  66% (2/3)   [Kremote: Compressing objects: 100% (3/3)   [Kremote: Compressing objects: 100% (3/3), done.[K
+remote: Total 3 (delta 2), reused 0 (delta 0), pack-reused 0[K
+Unpacking objects:  33% (1/3)   Unpacking objects:  66% (2/3)   Unpacking objects: 100% (3/3)   Unpacking objects: 100% (3/3), done.
+From https://github.com/brandondey/github.io.data-science
+   5c3433e..45999e9  master     -> origin/master
+Updating 5c3433e..45999e9
+Fast-forward
+ README.md | 4 [32m++[m[31m--[m
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+]0;~/Documents/Projects/Data Science/github.io.data-scienceShelbys-MacBook-Air:github.io.data-science brandondey$ git p[Kadd .
