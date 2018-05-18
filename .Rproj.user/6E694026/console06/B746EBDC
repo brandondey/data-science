@@ -3,3 +3,38 @@
 ]0;~/Documents/Projects/Data Science/github.io.data-scienceShelbys-MacBook-Air:github.io.data-science brandondey$ git init
 Initialized empty Git repository in /Users/brandondey/Documents/Projects/Data Science/github.io.data-science/.git/
 ]0;~/Documents/Projects/Data Science/github.io.data-scienceShelbys-MacBook-Air:github.io.data-science brandondey$ git push[K[K[K[Kadd .
+]0;~/Documents/Projects/Data Science/github.io.data-scienceShelbys-MacBook-Air:github.io.data-science brandondey$ git [K[K[K[Kgit commit -m '[K"initial commit"
+[master (root-commit) fdf8f49] initial commit
+ 23 files changed, 550 insertions(+)
+ create mode 100644 .DS_Store
+ create mode 100644 .Rproj.user/6E694026/console06/B746EBDC
+ create mode 100644 .Rproj.user/6E694026/console06/B746EBDC.env
+ create mode 100644 .Rproj.user/6E694026/console06/INDEX001
+ create mode 100644 .Rproj.user/6E694026/sources/prop/3135BC67
+ create mode 100644 .Rproj.user/6E694026/sources/prop/8FBC2FFA
+ create mode 100644 .Rproj.user/6E694026/sources/prop/INDEX
+ create mode 100644 .Rproj.user/6E694026/sources/s-107955CF/B76D0F83-contents
+ create mode 100644 .Rproj.user/6E694026/sources/s-107955CF/D7D1C193
+ create mode 100644 .Rproj.user/6E694026/sources/s-107955CF/D7D1C193-contents
+ create mode 100644 .Rproj.user/6E694026/sources/s-107955CF/lock_file
+ create mode 100644 .Rproj.user/shared/notebooks/C41FE875-ds/1/s/chunks.json
+ create mode 100644 .Rproj.user/shared/notebooks/patch-chunk-names
+ create mode 100644 .Rproj.user/shared/notebooks/paths
+ create mode 100644 README.md
+ create mode 100644 _site.yml
+ create mode 100644 css/.DS_Store
+ create mode 100644 css/fonts/.DS_Store
+ create mode 100644 css/fonts/SCRIPTIN.ttf
+ create mode 100644 css/style.css
+ create mode 100644 ds.Rmd
+ create mode 100644 ds.html
+ create mode 100644 github.io.data-science.Rproj
+]0;~/Documents/Projects/Data Science/github.io.data-scienceShelbys-MacBook-Air:github.io.data-science brandondey$ git push - u[K[Ku origin master
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+]0;~/Documents/Projects/Data Science/github.io.data-scienceShelbys-MacBook-Air:github.io.data-science brandondey$ git init https://github.com/brandondey/github.io.d ata-science.git
+Initialized empty Git repository in /Users/brandondey/Documents/Projects/Data Science/github.io.data-science/https:/github.com/brandondey/github.io.data-science.git/.git/
+]0;~/Documents/Projects/Data Science/github.io.data-scienceShelbys-MacBook-Air:github.io.data-science brandondey$ git add .
