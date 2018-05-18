@@ -1,6 +1,6 @@
-## My writing website:
+## My data science website:
 
-[brandondey.github.io/writing](https://brandondey.github.io/writing)
+[brandondey.github.io/data-science](https://brandondey.github.io/data-science)
 
 ## Resources
 
