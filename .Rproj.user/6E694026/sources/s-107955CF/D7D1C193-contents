@@ -4,10 +4,12 @@ navbar:
   title: "DS"
   href: https://brandondey.github.io/data-science/
   right:
-    - text: "hadley wickham dedication"
+    - text: "projects?"
       menu:
-      - text: "jk"
-        href: ds.html
+      - text: "mke-parking-tickets"
+      - href: ds.html
+      - text: "AI doing ML"
+      - href: ds.html
     - icon: glyphicon glyphicon-console
       menu:
       - text: "Home"
