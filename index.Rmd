@@ -37,7 +37,7 @@ knitr::opts_chunk$set(echo = TRUE)
 *Machine Learning, Applied Statistics, Data Science Cambridge, MA  MAY 2018 - PRESENT *
     
 - ['Active Learning: Your Model's New Personal Trainer']([https://opendatascience.com/active-learning-your-models-new-personal-trainer/)
-['ODSC West 2018 Review'](https://opendatascience.com/odsc-west-2018-review-have-you-been-to-machine-learning-mecca/)
+- ['ODSC West 2018 Review'](https://opendatascience.com/odsc-west-2018-review-have-you-been-to-machine-learning-mecca/)
 - ['An Introduction to Sentence-Level Sentiment Analysis with sentimentr'](https://opendatascience.com/an-introduction-to-sentence-level-sentiment-analysis-with-sentimentr/)
 - ['Where’s Humanity’s Algorithm to Solve Poverty?'](https://opendatascience.com/wheres-humanitys-algorithm-to-solve-poverty/)
 - ['A Beer Lover’s BFF? An Introduction to Geospatial Interpolation via Inverse Distance Weighting'](https://opendatascience.com/an-introduction-to-geospatial-interpolation-via-inverse-distance-weighting/)
