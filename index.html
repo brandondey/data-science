@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
 <meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
 
-<title></title>
+<title>index.utf8</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -56,9 +56,7 @@ h6 {
 
 <link rel="stylesheet" href="css/style.css" type="text/css" />
 
-</head>
 
-<body>
 
 <style type = "text/css">
 .main-container {
@@ -72,13 +70,18 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
 }
+.html-widget {
+  margin-bottom: 20px;
+}
 button.code-folding-btn:focus {
   outline: none;
+}
+summary {
+  display: list-item;
 }
 </style>
 
@@ -94,7 +97,6 @@ body {
   padding-top: 66px;
   margin-top: -66px;
 }
-
 .section h2 {
   padding-top: 66px;
   margin-top: -66px;
@@ -114,6 +116,43 @@ body {
 .section h6 {
   padding-top: 66px;
   margin-top: -66px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
 }
 </style>
 
@@ -135,47 +174,66 @@ $(document).ready(function () {
 });
 </script>
 
-
-<div class="container-fluid main-container">
-
 <!-- tabsets -->
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-</script>
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
 
 <!-- code folding -->
 
 
-
-
-<script>
-$(document).ready(function ()  {
-
-    // move toc-ignore selectors from section div to header
-    $('div.section.toc-ignore')
-        .removeClass('toc-ignore')
-        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
-
-    // establish options
-    var options = {
-      selectors: "h1,h2",
-      theme: "bootstrap3",
-      context: '.toc-content',
-      hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
-      },
-      ignoreSelector: ".toc-ignore",
-      scrollTo: 0
-    };
-    options.showAndHide = true;
-    options.smoothScroll = true;
-
-    // tocify
-    var toc = $("#TOC").tocify(options).data("toc-tocify");
-});
-</script>
 
 <style type="text/css">
 
@@ -189,6 +247,12 @@ $(document).ready(function ()  {
 }
 }
 
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
 
 .toc-content {
   padding-left: 30px;
@@ -224,8 +288,6 @@ div.tocify {
 
 .tocify-subheader .tocify-item {
   font-size: 0.90em;
-  padding-left: 25px;
-  text-indent: 0;
 }
 
 .tocify .list-group-item {
@@ -234,6 +296,16 @@ div.tocify {
 
 
 </style>
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
 
 <!-- setup 3col/9col grid for toc_float and main content  -->
 <div class="row-fluid">
@@ -255,7 +327,7 @@ div.tocify {
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.html">DS</a>
+      <a class="navbar-brand" href="index.html">Data Science</a>
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
@@ -269,13 +341,9 @@ div.tocify {
     <span class="caret"></span>
   </a>
   <ul class="dropdown-menu" role="menu">
-    <li class="dropdown-header">mke-parking-tickets</li>
+    <li class="dropdown-header">How to Avoid Parking Tickets in Milwaukee</li>
     <li>
-      <a href="ds.html"></a>
-    </li>
-    <li class="dropdown-header">AI doing ML</li>
-    <li>
-      <a href="ds.html"></a>
+      <a href="src/Minimizing_Parking_Ticket_Risk.pdf"></a>
     </li>
   </ul>
 </li>
@@ -311,25 +379,32 @@ div.tocify {
 </div>
 
 
-<div id="welcome-to-where-i-keep-my-data-science" class="section level1">
-<h1>Welcome to where I keep my Data Science</h1>
-<p><br /> <br /> <br /> <br /> <br /><br />
-<br /><br />
-<br /><br />
-<br /><br />
-<br /><br />
-<br /><br />
-<br /><br />
-<br /><br />
-<br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /><br />
-<br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /><br />
-<br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /><br />
-<br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /><br />
-<br /> <br /> <br /> <br /> <br /> <br /> <br /> Still scrolling? <br /><br />
-<br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /><br />
-<br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> Way to be persistent! <br /><br />
-<br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /><br />
-<br /> <br /> <br /> <br /> <br /> <br /> <br /> It’ll pay off later when I add cool content here.</p>
+<div id="natural-language-processing" class="section level1">
+<h1>Natural Language Processing</h1>
+<p><strong>Dicto – A smarter dictionary</strong> <em>Forthcoming</em></p>
+<ul>
+<li>A logophilic bot that fetches the precise word for the precise context. Search for words based on intuitive parameters like “words that sort of mean [adjective] but are less like [synonym]”, word rareness, modernness, domain relevance (legalese, medical terminology, sports vernacular, male(female)ness, etc.), the word(s)’ “[adjective]-iness”, tensile strength, etc. It also displays each word’s association to contentious topics like race, slavery, gender, and other extremist topics so the user is informed of – and can sidestep – the word’s charge in the American zeitgeist.</li>
+<li>It’s <a href="https://www.datamuse.com/api/">DataMuse</a> meets <a href="https://en.wikipedia.org/wiki/David_Foster_Wallace">David Foster Wallace</a>meets <a href="https://pudding.cool/projects/vocabulary/index.html">Aesop Rock</a>.</li>
+<li>Powered by: <a href="https://link.springer.com/content/pdf/10.3758%2Fs13428-014-0529-0.pdf">Latent Semantic Analysis</a>, semantic similarity measures computed by a superior corpus and knowledge-based method (vs. vectorial models common in information retrieval), and <a href="https://github.com/jayurbain/DeepNLPIntro/blob/master/slides/2%20NLP%20Text%20Classification.pdf">Convolution Neural Networks</a>.</li>
+<li>Trained on data from: <a href="https://books.google.com/ngrams">Google nGram</a>, <a href="https://www.dictionaryapi.com/products/api-collegiate-thesaurus.html">Merriam-Webster’s Collegiate® Thesaurus</a>, and <a href="https://www.datamuse.com/api/">DataMuse</a>.</li>
+</ul>
+<p><strong>Pop: Your Pal for Palindromic Prose, Pronto</strong> <em>July 2019</em></p>
+<ul>
+<li>I designed and engineered a novel algorithm that creates the longest possible palindromic prose from the word sequences of inputed corpora. Powered by a custom variant of the <a href="https://www.geeksforgeeks.org/rabin-karp-algorithm-for-pattern-searching/">Rabin-Karp Algorithm</a> and <a href="https://opennlp.apache.org/">Apache OpenNLP</a>.</li>
+<li>There’s an accompanying D3.js viz that visualizes the intuition of how it works, similiar to <a href="https://bost.ocks.org/mike/algorithms/">Bostock’s work here</a>.</li>
+</ul>
+</div>
+<div id="writing" class="section level1">
+<h1>Writing</h1>
+<p><strong>AI &amp; Data Science Journalist, Open Data Science Conference (ODSC)</strong> <em>Machine Learning, Applied Statistics, Data Science Cambridge, MA MAY 2018 - PRESENT </em></p>
+<ul>
+<li><a href="%5Bhttps://opendatascience.com/active-learning-your-models-new-personal-trainer/">‘Active Learning: Your Model’s New Personal Trainer’</a> <a href="https://opendatascience.com/odsc-west-2018-review-have-you-been-to-machine-learning-mecca/">‘ODSC West 2018 Review’</a></li>
+<li><a href="https://opendatascience.com/an-introduction-to-sentence-level-sentiment-analysis-with-sentimentr/">‘An Introduction to Sentence-Level Sentiment Analysis with sentimentr’</a></li>
+<li><a href="https://opendatascience.com/wheres-humanitys-algorithm-to-solve-poverty/">‘Where’s Humanity’s Algorithm to Solve Poverty?’</a></li>
+<li><a href="https://opendatascience.com/an-introduction-to-geospatial-interpolation-via-inverse-distance-weighting/">‘A Beer Lover’s BFF? An Introduction to Geospatial Interpolation via Inverse Distance Weighting’</a></li>
+<li><a href="https://opendatascience.com/comparing-five-different-smooths-which-one-rules-them-all/">‘Comparing Five Different Smooths – Which One Rules Them All?’</a></li>
+<li><a href="https://opendatascience.com/a-short-summary-of-smoothing-algorithms/">‘A Short Summary of Smoothing Algorithms’</a></li>
+</ul>
 </div>
 
 
@@ -350,6 +425,49 @@ $(document).ready(function () {
 });
 
 
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
 </script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->

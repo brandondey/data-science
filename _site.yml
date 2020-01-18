@@ -1,15 +1,13 @@
 name: "Data Science"
 output_dir: "."
 navbar:
-  title: "DS"
+  title: "Data Science"
   href: https://brandondey.github.io/data-science/
   right:
     - text: "projects?"
       menu:
-      - text: "mke-parking-tickets"
-      - href: ds.html
-      - text: "AI doing ML"
-      - href: ds.html
+      - text: "How to Avoid Parking Tickets in Milwaukee"
+      - href: src/Minimizing_Parking_Ticket_Risk.pdf
     - icon: glyphicon glyphicon-console
       menu:
       - text: "Home"

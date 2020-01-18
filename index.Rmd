@@ -16,101 +16,32 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-# Welcome to where I keep my Data Science  
 
-<br />
-<br />
-<br />
-<br />
-<br />  
-<br />    
-<br />    
-<br />    
-<br />    
-<br />    
-<br />    
-<br />  
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />  
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />  
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />  
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />  
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-Still scrolling?
-<br />  
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />  
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-Way to be persistent!
-<br />  
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />  
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-It'll pay off later when I add cool content here. 
+# Natural Language Processing  
 
+**Dicto -- A smarter dictionary** *Forthcoming*  
 
+- A logophilic bot that fetches the precise word for the precise context. Search for words based on intuitive parameters like "words that sort of mean [adjective] but are less like [synonym]", word rareness, modernness, domain relevance (legalese, medical terminology, sports vernacular, male(female)ness, etc.), the word(s)' "[adjective]-iness", tensile strength, etc. It also displays each word's association to contentious topics like race, slavery, gender, and other extremist topics so the user is informed of -- and can sidestep -- the word's charge in the American zeitgeist.
+- It's [DataMuse](https://www.datamuse.com/api/) meets [David Foster Wallace](https://en.wikipedia.org/wiki/David_Foster_Wallace)meets [Aesop Rock](https://pudding.cool/projects/vocabulary/index.html).
+- Powered by: [Latent Semantic Analysis](https://link.springer.com/content/pdf/10.3758\%2Fs13428-014-0529-0.pdf), semantic similarity measures computed by a superior corpus and knowledge-based method (vs. vectorial models common in information retrieval), and [Convolution Neural Networks](https://github.com/jayurbain/DeepNLPIntro/blob/master/slides/2\%20NLP\%20Text\%20Classification.pdf).
+- Trained on data from: [Google nGram](https://books.google.com/ngrams), [Merriam-Webster's Collegiate® Thesaurus](https://www.dictionaryapi.com/products/api-collegiate-thesaurus.html), and [DataMuse](https://www.datamuse.com/api/).
+
+**Pop: Your Pal for Palindromic Prose, Pronto** *July 2019*
+
+- I designed and engineered a novel algorithm that creates the longest possible palindromic prose from the word sequences of inputed corpora. Powered by a custom variant of the [Rabin-Karp Algorithm](https://www.geeksforgeeks.org/rabin-karp-algorithm-for-pattern-searching/) and [Apache OpenNLP](https://opennlp.apache.org/).
+- There's an accompanying D3.js viz that visualizes the intuition of how it works, similiar to [Bostock's work here](https://bost.ocks.org/mike/algorithms/).
+
+# Writing 
+
+**AI & Data Science Journalist, Open Data Science Conference (ODSC)**
+*Machine Learning, Applied Statistics, Data Science Cambridge, MA  MAY 2018 - PRESENT *
+    
+- ['Active Learning: Your Model's New Personal Trainer']([https://opendatascience.com/active-learning-your-models-new-personal-trainer/)
+['ODSC West 2018 Review'](https://opendatascience.com/odsc-west-2018-review-have-you-been-to-machine-learning-mecca/)
+- ['An Introduction to Sentence-Level Sentiment Analysis with sentimentr'](https://opendatascience.com/an-introduction-to-sentence-level-sentiment-analysis-with-sentimentr/)
+- ['Where’s Humanity’s Algorithm to Solve Poverty?'](https://opendatascience.com/wheres-humanitys-algorithm-to-solve-poverty/)
+- ['A Beer Lover’s BFF? An Introduction to Geospatial Interpolation via Inverse Distance Weighting'](https://opendatascience.com/an-introduction-to-geospatial-interpolation-via-inverse-distance-weighting/)
+- ['Comparing Five Different Smooths – Which One Rules Them All?'](https://opendatascience.com/comparing-five-different-smooths-which-one-rules-them-all/)
+- ['A Short Summary of Smoothing Algorithms'](https://opendatascience.com/a-short-summary-of-smoothing-algorithms/)
+ 
 
