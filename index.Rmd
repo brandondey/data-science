@@ -7,7 +7,7 @@ output:
     highlight: null
     css: css/style.css
     toc: true # table of contents
-    toc_depth: 2 # only # header and ## smaller header appear in toc
+    toc_depth: 4 # only # header and ## smaller header appear in toc
     toc_float: true # make toc float as I scroll
     collapsed: false
 ---
@@ -16,8 +16,9 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+### Applied Math
 
-# Natural Language Processing  
+#### Natural Language Processing  
 
 **Dicto -- A smarter dictionary** *Forthcoming*  
 
@@ -31,7 +32,13 @@ knitr::opts_chunk$set(echo = TRUE)
 - I designed and engineered a novel algorithm that creates the longest possible palindromic prose from the word sequences of inputed corpora. Powered by a custom variant of the [Rabin-Karp Algorithm](https://www.geeksforgeeks.org/rabin-karp-algorithm-for-pattern-searching/) and [Apache OpenNLP](https://opennlp.apache.org/).
 - There's an accompanying D3.js viz that visualizes the intuition of how it works, similiar to [Bostock's work here](https://bost.ocks.org/mike/algorithms/).
 
-# Writing 
+#### Geospatial
+
+**Minimize risk of parking tickets in the Brew City**
+
+- I got a lot of parking tickets in college, so I built an algorithm to help me avoid them. Rough idea [here](src/Minimizing_Parking_Ticket_Risk.pdf).
+
+### Writing 
 
 **AI & Data Science Journalist, Open Data Science Conference (ODSC)**
 *Machine Learning, Applied Statistics, Data Science Cambridge, MA  MAY 2018 - PRESENT *
